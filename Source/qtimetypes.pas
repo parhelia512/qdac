@@ -3,45 +3,45 @@ unit qtimetypes;
 interface
 
 {
-  ±¾Ô´ÂëÀ´×ÔQDACÏîÄ¿£¬°æÈ¨¹éswish(QQ:109867294)ËùÓĞ¡£
-  (1)¡¢Ê¹ÓÃĞí¿É¼°ÏŞÖÆ
-  Äú¿ÉÒÔ×ÔÓÉ¸´ÖÆ¡¢·Ö·¢¡¢ĞŞ¸Ä±¾Ô´Âë£¬µ«ÄúµÄĞŞ¸ÄÓ¦¸Ã·´À¡¸ø×÷Õß£¬²¢ÔÊĞí×÷ÕßÔÚ±ØÒªÊ±£¬
-  ºÏ²¢µ½±¾ÏîÄ¿ÖĞÒÔ¹©Ê¹ÓÃ£¬ºÏ²¢ºóµÄÔ´ÂëÍ¬Ñù×ñÑ­QDAC°æÈ¨ÉùÃ÷ÏŞÖÆ¡£
-  ÄúµÄ²úÆ·µÄ¹ØÓÚÖĞ£¬Ó¦°üº¬ÒÔÏÂµÄ°æ±¾ÉùÃ÷:
-  ±¾²úÆ·Ê¹ÓÃµÄJSON½âÎöÆ÷À´×ÔQDACÏîÄ¿ÖĞµÄQJSON£¬°æÈ¨¹é×÷ÕßËùÓĞ¡£
-  (2)¡¢¼¼ÊõÖ§³Ö
-  ÓĞ¼¼ÊõÎÊÌâ£¬Äú¿ÉÒÔ¼ÓÈëQDAC¹Ù·½QQÈº250530692¹²Í¬Ì½ÌÖ¡£
-  (3)¡¢ÔŞÖú
-  Äú¿ÉÒÔ×ÔÓÉÊ¹ÓÃ±¾Ô´Âë¶ø²»ĞèÒªÖ§¸¶ÈÎºÎ·ÑÓÃ¡£Èç¹ûÄú¾õµÃ±¾Ô´Âë¶ÔÄúÓĞ°ïÖú£¬Äú¿ÉÒÔÔŞ
-  Öú±¾ÏîÄ¿£¨·ÇÇ¿ÖÆ£©£¬ÒÔÊ¹×÷Õß²»ÎªÉú»îËùÆÈ£¬ÓĞ¸ü¶àµÄ¾«Á¦ÎªÄú³ÊÏÖ¸üºÃµÄ×÷Æ·£º
-  ÔŞÖú·½Ê½£º
-  Ö§¸¶±¦£º guansonghuan@sina.com ĞÕÃû£º¹ÜËÊå¾
-  ½¨ÉèÒøĞĞ£º
-  »§Ãû£º¹ÜËÊå¾
-  ÕËºÅ£º4367 4209 4324 0179 731
-  ¿ª»§ĞĞ£º½¨ÉèÒøĞĞ³¤´ºÍÅ·ç´¢ĞîËù
+  ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½QDACï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½swish(QQ:109867294)ï¿½ï¿½ï¿½Ğ¡ï¿½
+  (1)ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¸ï¿½ï¿½Æ¡ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ş¸Ä±ï¿½Ô´ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ş¸ï¿½Ó¦ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ÒªÊ±ï¿½ï¿½
+  ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Ô¹ï¿½Ê¹ï¿½Ã£ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ñ­QDACï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¡ï¿½
+  ï¿½ï¿½ï¿½Ä²ï¿½Æ·ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½Ğ£ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂµÄ°æ±¾ï¿½ï¿½ï¿½ï¿½:
+  ï¿½ï¿½ï¿½ï¿½Æ·Ê¹ï¿½Ãµï¿½JSONï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½QDACï¿½ï¿½Ä¿ï¿½Ğµï¿½QJSONï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½
+  (2)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
+  ï¿½Ğ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½QDACï¿½Ù·ï¿½QQÈº250530692ï¿½ï¿½Í¬Ì½ï¿½Ö¡ï¿½
+  (3)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã±ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÖ§ï¿½ï¿½ï¿½ÎºÎ·ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã±ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ß²ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£ï¿½ï¿½Ğ¸ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ãµï¿½ï¿½ï¿½Æ·ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½
+  Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ guansonghuan@sina.com ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ£ï¿½
+  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½ËºÅ£ï¿½4367 4209 4324 0179 731
+  ï¿½ï¿½ï¿½ï¿½ï¿½Ğ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ³ï¿½ï¿½ï¿½ï¿½Å·ç´¢ï¿½ï¿½ï¿½ï¿½
 }
-{ ±¾µ¥ÔªÊµÏÖÁËÊ±¼ä´ÁÀàĞÍ(TQTimeStamp)ºÍÊ±¼ä¼ä¸ôÀàĞÍ(TQInterval)£¬ÓÃÓÚTQValue»òÆäËü
-  ĞèÒªµÄ³¡ºÏ¡£±¾µ¥ÔªÊµÏÖµÄTQTimeStampºÍTQInterval²ÉÓÃÁËÒ»Ğ©Ëã·¨£¬À´±£Ö¤Á½ÖÖÀàĞÍµÄ
-  ³¤¶È¶¼ÊÇ8×Ö½Ú64Î»£¬ÕâÑùµÄºÃ´¦ÊÇ·ûºÏTQValueÄ¬ÈÏ³¤¶È8×Ö½Ú£¬¶ø²»ĞèÒªÊ¹ÓÃÖ¸Õë¡£
-  TQTimeStampºÍÏµÍ³µÄTDateTimeÊµÏÖ·½Ê½²»Í¬£¬µ«¿ÉÒÔÀàĞÍÒşÊ½×ª»»£¬TQInterval¿ÉÒÔÓëDateTime
-  ÀàĞÍ½øĞĞ¼Ó¼õÔËËã¡£
+{ ï¿½ï¿½ï¿½ï¿½ÔªÊµï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(TQTimeStamp)ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(TQInterval)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½TQValueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½Òªï¿½Ä³ï¿½ï¿½Ï¡ï¿½ï¿½ï¿½ï¿½ï¿½ÔªÊµï¿½Öµï¿½TQTimeStampï¿½ï¿½TQIntervalï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ğ©ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½
+  ï¿½ï¿½ï¿½È¶ï¿½ï¿½ï¿½8ï¿½Ö½ï¿½64Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄºÃ´ï¿½ï¿½Ç·ï¿½ï¿½ï¿½TQValueÄ¬ï¿½Ï³ï¿½ï¿½ï¿½8ï¿½Ö½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÊ¹ï¿½ï¿½Ö¸ï¿½ë¡£
+  TQTimeStampï¿½ï¿½ÏµÍ³ï¿½ï¿½TDateTimeÊµï¿½Ö·ï¿½Ê½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½×ªï¿½ï¿½ï¿½ï¿½TQIntervalï¿½ï¿½ï¿½ï¿½ï¿½ï¿½DateTime
+  ï¿½ï¿½ï¿½Í½ï¿½ï¿½Ğ¼Ó¼ï¿½ï¿½ï¿½ï¿½ã¡£
 
-  ĞŞ¶©ÈÕÖ¾
+  ï¿½Ş¶ï¿½ï¿½ï¿½Ö¾
   2015.12.21
   ==========
-  * ÒÆ³ıµ½ÏµÍ³µÄTSQLTimeStampÀàĞÍµÄ¶¨ÒåÒÀÀµ£¨Âó×ÓÖÙ·Ê£©
+  * ï¿½Æ³ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½TSQLTimeStampï¿½ï¿½ï¿½ÍµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù·Ê£ï¿½
   2015.8.11
   =========
-  * ÖØĞ´ TQPlanMask £¬Ê±¼äÉè¶¨·¶Î§¸ÄÎªÓÉÃëµ½Äê£¬Í¬Ê±Ôö¼Ó¶Ô #¡¢L¡¢W ²Ù×÷·ûµÄÖ§³Ö
+  * ï¿½ï¿½Ğ´ TQPlanMask ï¿½ï¿½Ê±ï¿½ï¿½ï¿½è¶¨ï¿½ï¿½Î§ï¿½ï¿½Îªï¿½ï¿½ï¿½ëµ½ï¿½ê£¬Í¬Ê±ï¿½ï¿½ï¿½Ó¶ï¿½ #ï¿½ï¿½Lï¿½ï¿½W ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
 
   2015.7.3
   =========
-  * ĞŞÕıÁË TQPlanMask Ê±~ÖÜÖ®¼äµÄÑ¡ÏîÎŞĞ§µÄÎÊÌâ(Çà´º±¨¸æ£©
-  + Ôö¼Ó¶Ô */n ÑÚÂë¸ñÊ½µÄÖ§³Ö
+  * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ TQPlanMask Ê±~ï¿½ï¿½Ö®ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½à´ºï¿½ï¿½ï¿½æ£©
+  + ï¿½ï¿½ï¿½Ó¶ï¿½ */n ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½Ö§ï¿½ï¿½
   2014-9-12
   =========
-  * ³õÊ¼°æ±¾(¦Á1°æ)
+  * ï¿½ï¿½Ê¼ï¿½æ±¾(ï¿½ï¿½1ï¿½ï¿½)
 }
 uses classes, qstring, sysutils, dateutils, math;
 {$HPPEMIT '#pragma link "qtimetypes"'}
@@ -60,7 +60,7 @@ const
   Day1Year: Double = 365.24219;
   Day1Month: Double = 365.24219 / 12;
   Month1Year: Int64 = 12;
-  // ¼Æ»®ÈÎÎñÑÚÂë
+  // ï¿½Æ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   PLAN_MASK_ANY = $01;
   PLAN_MASK_RANGE = $02;
   PLAN_MASK_REPEAT = $04;
@@ -70,7 +70,7 @@ const
   PLAN_MASK_WORKDAY = $40;
 
 type
-  // Ê±¼ä¼ä¸ôÖµ¼ÇÂ¼
+  // Ê±ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Â¼
   PQInterval = ^TQInterval;
   PQTimeStamp = ^TQTimestamp;
 
@@ -179,7 +179,7 @@ type
     property DayToMs: Int64 read GetDayToMs write SetDayToMs;
   end;
 
-  /// <summary>¼Æ»®×÷Òµ¸ñÊ½</summary>
+  /// <summary>ï¿½Æ»ï¿½ï¿½ï¿½Òµï¿½ï¿½Ê½</summary>
   TQTimeLimitItem = record
     Start: Smallint;
     Stop: Smallint;
@@ -205,10 +205,10 @@ type
   TQPlanMask = record
   private
     FLimits: TQTimeLimits;
-    FStartTime: TDateTime; // ¼Æ»®ÉúĞ§ÆğÊ¼Ê±¼ä
-    FFirstTime: TDateTime; // Ê×´ÎÖ´ĞĞÊ±¼ä
-    FLastTime, FNextTime: TDateTime; // Ä©´ÎÖ´ĞĞÊ±¼ä
-    FStopTime: TDateTime; // ¼Æ»®ÉúĞ§½ØÖ¹Ê±¼ä
+    FStartTime: TDateTime; // ï¿½Æ»ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½Ê¼Ê±ï¿½ï¿½
+    FFirstTime: TDateTime; // ï¿½×´ï¿½Ö´ï¿½ï¿½Ê±ï¿½ï¿½
+    FLastTime, FNextTime: TDateTime; // Ä©ï¿½ï¿½Ö´ï¿½ï¿½Ê±ï¿½ï¿½
+    FStopTime: TDateTime; // ï¿½Æ»ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½Ö¹Ê±ï¿½ï¿½
     FContent: QStringW;
     FOnTimeAccept: TQPlanTimeAcceptEvent;
     procedure SetAsString(const S: QStringW);
@@ -250,7 +250,7 @@ type
   TQTimestamp = record
   private
     Data: Int64;
-    // ÓÃÒ»¸ö64Î»ÕûÊıÀ´¼ÇÂ¼Ê±¼ä´Á£¬¶ø²»ÊÇÊ¹ÓÃTSQLTimeStamp
+    // ï¿½ï¿½Ò»ï¿½ï¿½64Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½TSQLTimeStamp
     function GetIsBC: Boolean;
     procedure SetIsBC(const Value: Boolean);
     function GetDay: Byte;
@@ -315,31 +315,31 @@ var
 implementation
 
 resourcestring
-  SOutOfIntervalRange = 'Ê±¼ä¼ä¸ôÀàĞÍ²»½ÓÊÜÖ¸¶¨µÄÖµ %d (ÔÊĞí·¶Î§%d-%d)';
-  SBadIntervalValue = 'ÎŞĞ§µÄÊ±¼ä¼ä¸ôÖµ:%s';
-  SBadPgIntervalString = 'ÎŞĞ§µÄPostgreSQLÊ±¼ä¼ä¸ôÀàĞÍÖµ:%s';
-  SBadISOIntervalValue = 'ÎŞĞ§µÄISOÊ±¼ä¼ä¸ôÀàĞÍÖµ:%s';
-  SBadOracleIntervalValue = 'ÎŞĞ§µÄOracleÊ±¼ä¼ä¸ôÀàĞÍÖµ:%s';
-  SBadSQLIntervalString = 'ÎŞĞ§µÄSQLÊ±¼ä¼ä¸ôÀàĞÍÖµ:%s';
-  SIntervalOutOfRange = 'Ê±¼ä¼ä¸ôÖµ³¬³öÔÊĞíµÄ·¶Î§ÏŞÖÆ-699051Äê4ÔÂ~699050Äê7ÔÂ';
-  SBadTimeValue = 'Ö¸¶¨µÄÊ±¼ä±àÂë²ÎÊıÎŞĞ§:%d-%d-%d %d:%d:%d.%d';
-  SMonthOutOfRange = 'Ö¸¶¨µÄÔÂ·İÖµ %d ³¬³öÔÊĞí·¶Î§';
-  SDayOutOfRange = 'Ö¸¶¨µÄÈÕÊı %d ³¬¹ıÔÊĞí·¶Î§ (1-%d)';
-  SHourOutOfRange = 'Ö¸¶¨µÄĞ¡Ê±Êı %d ³¬¹ıÔÊĞí·¶Î§(0-23)';
-  SMinuteOutOfRange = 'Ö¸¶¨µÄ·ÖÖÓÊı %d ³¬¹ıÔÊĞí·¶Î§(0-59)';
-  SSecondOutOfRange = 'Ö¸¶¨µÄÃëÊı %d ³¬¹ıÔÊĞí·¶Î§(0-59)';
-  SMSOutOfRange = 'Ö¸¶¨µÄºÁÃëÊı %d ³¬¹ıÔÊĞí·¶Î§(0-599)';
-  SMacroSecondOutOfRange = 'Ö¸¶¨µÄÎ¢ÃëÊı %d ³¬¹ıÔÊĞí·¶Î§(0-999999)';
-  SBadDateTimeString = '²»Ö§³ÖµÄÈÕÆÚÊ±¼ä×Ö·û´®Öµ:%s';
-  SBadPlanMask = 'Ö¸¶¨µÄ×Ö·û %s ÎŞĞ§¡£';
+  SOutOfIntervalRange = 'Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Öµ %d (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§%d-%d)';
+  SBadIntervalValue = 'ï¿½ï¿½Ğ§ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Öµ:%s';
+  SBadPgIntervalString = 'ï¿½ï¿½Ğ§ï¿½ï¿½PostgreSQLÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ:%s';
+  SBadISOIntervalValue = 'ï¿½ï¿½Ğ§ï¿½ï¿½ISOÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ:%s';
+  SBadOracleIntervalValue = 'ï¿½ï¿½Ğ§ï¿½ï¿½OracleÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ:%s';
+  SBadSQLIntervalString = 'ï¿½ï¿½Ğ§ï¿½ï¿½SQLÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ:%s';
+  SIntervalOutOfRange = 'Ê±ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½Î§ï¿½ï¿½ï¿½ï¿½-699051ï¿½ï¿½4ï¿½ï¿½~699050ï¿½ï¿½7ï¿½ï¿½';
+  SBadTimeValue = 'Ö¸ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ§:%d-%d-%d %d:%d:%d.%d';
+  SMonthOutOfRange = 'Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½Öµ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§';
+  SDayOutOfRange = 'Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§ (1-%d)';
+  SHourOutOfRange = 'Ö¸ï¿½ï¿½ï¿½ï¿½Ğ¡Ê±ï¿½ï¿½ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§(0-23)';
+  SMinuteOutOfRange = 'Ö¸ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§(0-59)';
+  SSecondOutOfRange = 'Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§(0-59)';
+  SMSOutOfRange = 'Ö¸ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§(0-599)';
+  SMacroSecondOutOfRange = 'Ö¸ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§(0-999999)';
+  SBadDateTimeString = 'ï¿½ï¿½Ö§ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Öµ:%s';
+  SBadPlanMask = 'Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ %s ï¿½ï¿½Ğ§ï¿½ï¿½';
 
-  // ×îĞ¡Ê±¼ä¼ä¸ôÎª-699051Äê4¸öÔÂÁã-6363Ìì2Ğ¡Ê±3·Ö6Ãë112ºÁÃë
+  // ï¿½ï¿½Ğ¡Ê±ï¿½ï¿½ï¿½ï¿½Îª-699051ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-6363ï¿½ï¿½2Ğ¡Ê±3ï¿½ï¿½6ï¿½ï¿½112ï¿½ï¿½ï¿½ï¿½
 function MinInterval: TQInterval; inline;
 begin
   Result.FData := Int64($8000008000000000);
 end;
 
-// ×î´ó¼ä¸ôÊ±¼äÎª699050Äê7¸öÔÂÁã6362Ìì21Ğ¡Ê±56·Ö53Ãë887ºÁÃë
+// ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Îª699050ï¿½ï¿½7ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6362ï¿½ï¿½21Ğ¡Ê±56ï¿½ï¿½53ï¿½ï¿½887ï¿½ï¿½ï¿½ï¿½
 function MaxInterval: TQInterval; inline;
 begin
   Result.FData := $7FFFFF7FFFFFFFFF;
@@ -364,7 +364,7 @@ begin
   Result := ADate + AInterval;
 end;
 
-// Á½¸öÊ±¼ä¼ä¸ôÏà¼Ó
+// ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 class operator TQInterval.Add(const AInterval1, AInterval2: TQInterval)
   : TQInterval;
 var
@@ -459,7 +459,7 @@ begin
   MT := Y * 12 + M;
   if ANeg then
     MT := -MT;
-  if (MT > 8388607) or (MT < -8388608) then // ¸ß24Î»±íÊ¾·¶Î§
+  if (MT > 8388607) or (MT < -8388608) then // ï¿½ï¿½24Î»ï¿½ï¿½Ê¾ï¿½ï¿½Î§
     raise Exception.Create(SIntervalOutOfRange);
   while MS < 0 do
   begin
@@ -480,7 +480,7 @@ begin
   if ANeg then
     D := -D;
   MST := D * MS1Day + H * MS1Hour + N * MS1Minute + S * MS1Second + MS;
-  if MST > 549755813887 then // µÍ40Î»±íÊ¾·¶Î§
+  if MST > 549755813887 then // ï¿½ï¿½40Î»ï¿½ï¿½Ê¾ï¿½ï¿½Î§
     raise Exception.Create(SIntervalOutOfRange);
   if ANeg then
     MST := -MST;
@@ -1047,7 +1047,7 @@ end;
 
 procedure TQInterval.SetMonthes(M: Int64);
 begin
-  if (M > 8388607) or (M < -8388608) then // ¸ß24Î»±íÊ¾·¶Î§
+  if (M > 8388607) or (M < -8388608) then // ï¿½ï¿½24Î»ï¿½ï¿½Ê¾ï¿½ï¿½Î§
     raise Exception.Create(SIntervalOutOfRange);
   FData := (M shl 40) or (FData and $FFFFFFFFFF);
 end;
@@ -1181,7 +1181,7 @@ begin
   end;
 end;
 
-/// OracleµÄÊ±¼ä¼ä¸ô¸ñÊ½
+/// Oracleï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
 function TQInterval.TryFromOracleString(Value: QStringW): Boolean;
 var
   P, pexp, ptype: PQCharW;
@@ -1248,10 +1248,10 @@ begin
   N := 0;
   S := 0;
   MS := 0;
-  // OracleµÄÊ±¼ä¼ä¸ôÓĞINTERVAL YEAR TO MONTHºÍINTERVAL DAY TO SECONDÁ½ÖÖĞÎÊ½,·Ö±ğ½âÎöÄêÔÂºÍÈÕ²¿·Ö
+  // Oracleï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½INTERVAL YEAR TO MONTHï¿½ï¿½INTERVAL DAY TO SECONDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½,ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âºï¿½ï¿½Õ²ï¿½ï¿½ï¿½
   P := PQCharW(Value);
   Result := True;
-  // OracleµÄÊ±¼ä¼ä¸ôµÄ¸ñÊ½ÓÉºóÃæµÄYear to month »òÕß month to yearÀ´¾ö¶¨ÄêÔÂµÄÎ»ÖÃ
+  // Oracleï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½Ê½ï¿½Éºï¿½ï¿½ï¿½ï¿½Year to month ï¿½ï¿½ï¿½ï¿½ month to yearï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Î»ï¿½ï¿½
   if not StartWithW(P, 'interval', True) then
   begin
     Result := False;
@@ -1277,7 +1277,7 @@ begin
   pexp := PQCharW(AExp);
   Inc(P);
   SkipSpaceW(P);
-  // ¿ªÊ¼ÀàĞÍµÄ¼ì²é
+  // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ÍµÄ¼ï¿½ï¿½
   SFrom := UpperCase(DecodeTokenW(P, SpaceChars, QCharW(#0), True));
   if not StartWithW(P, 'TO', True) then
   begin
@@ -1304,7 +1304,7 @@ begin
       (AToUnit in [PT_YEAR, PT_MONTH]);
     if not Result then
       Exit;
-    // Äê->ÔÂ»òÔÂ->Äê(¾«¶ÈÖµ±»ºöÂÔ£©
+    // ï¿½ï¿½->ï¿½Â»ï¿½ï¿½ï¿½->ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½
     if ParseInt(pexp, V) <> 0 then
     begin
       if AFromUnit = PT_YEAR then
@@ -1502,7 +1502,7 @@ var
         else
           Result := False;
       end
-      else if (P^ = 'd') or (P^ = 'D') then // ÈÕ²¿·Ö
+      else if (P^ = 'd') or (P^ = 'D') then // ï¿½Õ²ï¿½ï¿½ï¿½
       begin
         if (P^ = #0) or IsSpaceW(P) or CheckTrailer('day', 3) then
           D := V
@@ -1700,7 +1700,7 @@ var
   end;
 
 begin
-  // SQL Äê-ÔÂ ÈÕ Ê±:·Ö:Ãë
+  // SQL ï¿½ï¿½-ï¿½ï¿½ ï¿½ï¿½ Ê±:ï¿½ï¿½:ï¿½ï¿½
   P := PQCharW(Value);
   while (P^ <> #0) and ParseValue do
     SkipSpaceW(P);
@@ -1717,18 +1717,18 @@ end;
 
 // TQTimeStamp
 { TQTimeStamp }
-// ½ô´Õ°æµÄÈÕÆÚÊ±¼ä´ÁÀàĞÍ£¬Ê¼ÖÕ²»°üº¬Ê±ÇøĞÅÏ¢£¬¸ñÊ½Îª£º
-// Î¢Ãë(20Î»),Ãë(6Î»->26),·Ö(6Î»->32),Ê±(5Î»->37),ÈÕ(5Î»->42),ÔÂ(4Î»->46),¹«ÔªÇ°±êÖ¾(1Î»->47)
-// ±£ÁôÎ»(1Î»->48),Äê(16Î»->64)
+// ï¿½ï¿½ï¿½Õ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½Ê¼ï¿½Õ²ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½Ê½Îªï¿½ï¿½
+// Î¢ï¿½ï¿½(20Î»),ï¿½ï¿½(6Î»->26),ï¿½ï¿½(6Î»->32),Ê±(5Î»->37),ï¿½ï¿½(5Î»->42),ï¿½ï¿½(4Î»->46),ï¿½ï¿½ÔªÇ°ï¿½ï¿½Ö¾(1Î»->47)
+// ï¿½ï¿½ï¿½ï¿½Î»(1Î»->48),ï¿½ï¿½(16Î»->64)
 class operator TQTimestamp.Implicit(const AStamp: TSQLTimeStamp): TQTimestamp;
 begin
-  Result.Data := (Int64(AStamp.Fractions) and $FFFFF) + // Î¢Ãë
-    ((Int64(AStamp.Second) shl 20) and $3F00000) + // Ãë
-    ((Int64(AStamp.Minute) shl 26) and $FC000000) + // ·Ö
+  Result.Data := (Int64(AStamp.Fractions) and $FFFFF) + // Î¢ï¿½ï¿½
+    ((Int64(AStamp.Second) shl 20) and $3F00000) + // ï¿½ï¿½
+    ((Int64(AStamp.Minute) shl 26) and $FC000000) + // ï¿½ï¿½
     ((Int64(AStamp.Hour) shl 32) and $1F00000000) + // Ê±
-    ((Int64(AStamp.Day) shl 37) and $3E000000000) + // ÈÕ
-    ((Int64(AStamp.Month) shl 42) and $3C0000000000) + // ÔÂ
-    ((Int64(AStamp.Year) shl 48) and Int64($FFFF000000000000)); // Äê
+    ((Int64(AStamp.Day) shl 37) and $3E000000000) + // ï¿½ï¿½
+    ((Int64(AStamp.Month) shl 42) and $3C0000000000) + // ï¿½ï¿½
+    ((Int64(AStamp.Year) shl 48) and Int64($FFFF000000000000)); // ï¿½ï¿½
 end;
 
 class operator TQTimestamp.Implicit(const AStamp: TQTimestamp): TSQLTimeStamp;
@@ -1766,7 +1766,7 @@ begin
   Result := @Self;
   if D = 0 then
     Exit;
-  if D > 0 then // Ôö¼ÓÈÕ
+  if D > 0 then // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   begin
     D := Day + D;
     Day := 1;
@@ -1784,7 +1784,7 @@ begin
       end;
     until False;
   end
-  else // ¼õĞ¡ÈÕ
+  else // ï¿½ï¿½Ğ¡ï¿½ï¿½
   begin
     D := Day + D;
     Day := 1;
@@ -1935,25 +1935,25 @@ end;
 procedure TQTimestamp.Encode(const Y: Smallint; const M, D, H, N, S: Byte;
   const MS: Word);
 begin
-  if (Y <> 0) or (M <> 0) or (D <> 0) then // ÓĞÈÕÆÚ
+  if (Y <> 0) or (M <> 0) or (D <> 0) then // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   begin
     if (M < 1) or (M > 12) or (D < 1) or (D > 31) then
       raise Exception.CreateFmt(SBadTimeValue, [Y, M, D, H, N, S, MS]);
     if D > MonthDays[IsLeapYear(Y)][M] then
       raise Exception.CreateFmt(SBadTimeValue, [Y, M, D, H, N, S, MS]);
     if (Y = 1582) and (M = 10) and (D >= 5) and (D <= 14) then
-      // 1582-10-5~1582-10-14ÔÚÑôÀúÖĞÊÇÎŞĞ§µÄÈÕÆÚ
+      // 1582-10-5~1582-10-14ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
       raise Exception.CreateFmt(SBadTimeValue, [Y, M, D, H, N, S, MS]);
   end
   else if (H > 23) or (N > 59) or (S > 59) or (MS > 999) then
     raise Exception.CreateFmt(SBadTimeValue, [Y, M, D, H, N, S, MS]);
-  Data := (Int64(MS * 1000) and $00000000000FFFFF) + // Î¢Ãë
-    ((Int64(S) shl 20) and $0000000003F00000) + // Ãë
-    ((Int64(N) shl 26) and $00000000FC000000) + // ·Ö
+  Data := (Int64(MS * 1000) and $00000000000FFFFF) + // Î¢ï¿½ï¿½
+    ((Int64(S) shl 20) and $0000000003F00000) + // ï¿½ï¿½
+    ((Int64(N) shl 26) and $00000000FC000000) + // ï¿½ï¿½
     ((Int64(H) shl 32) and $0000001F00000000) + // Ê±
-    ((Int64(D) shl 37) and $000003E000000000) + // ÈÕ
-    ((Int64(M) shl 42) and $00003C0000000000) + // ÔÂ
-    ((Int64(Y) shl 48) and Int64($FFFF000000000000)); // Äê
+    ((Int64(D) shl 37) and $000003E000000000) + // ï¿½ï¿½
+    ((Int64(M) shl 42) and $00003C0000000000) + // ï¿½ï¿½
+    ((Int64(Y) shl 48) and Int64($FFFF000000000000)); // ï¿½ï¿½
 end;
 
 procedure TQTimestamp.Encode(const Y: Smallint; const M, D: Byte);
@@ -2009,7 +2009,7 @@ end;
 
 function TQTimestamp.GetHasDate: Boolean;
 begin
-  Result := (Data and $FFFF3FE000000000) <> 0; // 46ÊÇ¹«Ôª±êÖ¾£¬47Î»Î´ÓÃ
+  Result := (Data and $FFFF3FE000000000) <> 0; // 46ï¿½Ç¹ï¿½Ôªï¿½ï¿½Ö¾ï¿½ï¿½47Î»Î´ï¿½ï¿½
 end;
 
 function TQTimestamp.GetHasTime: Boolean;
@@ -2270,9 +2270,9 @@ begin
         end;
       end
       else if (ALimit^[I].Flags and PLAN_MASK_WEEKOFMONTH) <> 0 then
-      // ÔÂÄÚÖ¸¶¨µÄÖÜµÄÖÜn
+      // ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Üµï¿½ï¿½ï¿½n
       begin
-        // Ìøµ½ÔÂÄÚµÄµÚnÖÜ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÄµï¿½nï¿½ï¿½
         ADate := EncodeDate(Y, M, 1) + 7 * ALimit^[I].Stop;
         ADate := ADate + ALimit^[I].Start - DayOfTheWeek(ADate);
         DecodeDate(ADate, AY, AM, AD);
@@ -2365,6 +2365,108 @@ begin
   Result := @FLimits;
 end;
 
+{ NextAcceptValue: å¯¹äºç»™å®šçš„æ—¶é—´é™åˆ¶æ•°ç»„å’Œå½“å‰å€¼ï¼Œè¿”å›ä¸‹ä¸€ä¸ª >=AValue çš„åˆæ³•å€¼ã€‚
+  ä¸ Accept ä¸åŒï¼Œå®ƒä¸æ˜¯é€ä¸ªæ£€æŸ¥ï¼Œè€Œæ˜¯ç›´æ¥è·³è¿‡ä¸åˆæ³•å€¼è·³åˆ°ä¸‹ä¸€ä¸ªã€‚
+  @ALimit æ—¶é—´é™åˆ¶æ•°ç»„
+  @AValue å½“å‰å€¼
+  @AMax  å…è®¸çš„æœ€å¤§å€¼ï¼ˆå°æ—¶=23, åˆ†é’Ÿ=59, ç§’=59ï¼‰
+  @ANext [out] ä¸‹ä¸€ä¸ªåˆæ³•å€¼
+  @return True=æ‰¾åˆ° }
+function NextAcceptValue(const ALimit: PQTimeLimit; AValue, AMax: Word;
+  out ANext: Word): Boolean;
+var
+  I: Integer;
+  V, VBest: Word;
+  AItem: TQTimeLimitItem;
+begin
+  Result := False;
+  if Length(ALimit^) = 0 then
+  begin
+    ANext := AValue;
+    Exit(True);
+  end;
+  VBest := $FFFF;
+  for I := 0 to High(ALimit^) do
+  begin
+    AItem := ALimit^[I];
+    V := $FFFF;
+    if (AItem.Flags and PLAN_MASK_IGNORE) <> 0 then
+    begin
+      VBest := AValue;
+      Break;
+    end;
+    if (AItem.Flags and PLAN_MASK_ANY) <> 0 then
+    begin
+      if (AItem.Flags and PLAN_MASK_REPEAT) <> 0 then
+      begin
+        if AValue <= Word(AItem.Stop) then
+        begin
+          if AValue < Word(AItem.Start) then
+            V := Word(AItem.Start)
+          else
+          begin
+            V := (AValue - Word(AItem.Start)) div Word(AItem.Interval);
+            V := Word(AItem.Start) + V * Word(AItem.Interval);
+            if V < AValue then
+              Inc(V, Word(AItem.Interval));
+          end;
+          if V > Word(AItem.Stop) then
+            V := $FFFF;
+        end;
+      end
+      else
+      begin
+        VBest := AValue;
+        Break;
+      end;
+    end
+    else if (AItem.Flags and PLAN_MASK_RANGE) <> 0 then
+    begin
+      if AValue <= Word(AItem.Stop) then
+      begin
+        if AValue < Word(AItem.Start) then
+          V := Word(AItem.Start)
+        else
+          V := AValue;
+        if (AItem.Flags and PLAN_MASK_REPEAT) <> 0 then
+        begin
+          if V > Word(AItem.Start) then
+            V := ((V - Word(AItem.Start) + Word(AItem.Interval) - 1)
+              div Word(AItem.Interval)) * Word(AItem.Interval) + Word(AItem.Start);
+          if V > Word(AItem.Stop) then
+            V := $FFFF;
+        end;
+      end;
+    end
+    else if (AItem.Flags and PLAN_MASK_REPEAT) <> 0 then
+    begin
+      if AValue <= Word(AItem.Stop) then
+      begin
+        if AValue < Word(AItem.Start) then
+          V := Word(AItem.Start)
+        else
+          V := ((AValue - Word(AItem.Start) + Word(AItem.Interval) - 1)
+            div Word(AItem.Interval)) * Word(AItem.Interval) + Word(AItem.Start);
+        if V > Word(AItem.Stop) then
+          V := $FFFF;
+      end;
+    end
+    else if (AItem.Flags and (PLAN_MASK_LAST or PLAN_MASK_WEEKOFMONTH
+      or PLAN_MASK_WORKDAY)) = 0 then
+    begin
+      if AValue <= Word(AItem.Start) then
+        V := Word(AItem.Start);
+    end;
+    if V < VBest then
+      VBest := V;
+  end;
+  if (VBest <> $FFFF) and (VBest <= AMax) then
+  begin
+    ANext := VBest;
+    Result := True;
+  end;
+end;
+
 function TQPlanMask.GetNextTime: TDateTime;
 var
   Y, M, D, H, N, S, MS: Word;
@@ -2380,37 +2482,48 @@ var
     AD := D;
     Result := False;
     AMaxYear:=YearOf(FStopTime);
-    while (AY <= AMaxYear) do
+    while AY <= AMaxYear do
     begin
-      if Accept(@FLimits[tlpYear], AY) then
+      { å¹´: ä½¿ç”¨è·³è·ƒç®—æ³• }
+      if not NextAcceptValue(@FLimits[tlpYear], AY, AMaxYear, AY) then
+        Exit;
+      if AY > AMaxYear then
+        Exit;
+      AIsLeapYear := IsLeapYear(AY);
+      if AY > Y then
       begin
-        AIsLeapYear := IsLeapYear(AY);
-        while AM <= 12 do
-        begin
-          if Accept(@FLimits[tlpMonthOfYear], AM) then
-          begin
-            while AD <= MonthDays[AIsLeapYear][AM] do
-            begin
-              if AcceptDay(AY, AM, AD) then // Day¿ÉÒÔÓÃL£¬ËùÒÔĞèÒªµ¥¶À²âÊÔ
-              begin
-                if (AD <> D) or (AM <> M) or (AY <> Y) then
-                begin
-                  H := 0;
-                  N := 0;
-                  S := 0;
-                end;
-                Y := AY;
-                M := AM;
-                D := AD;
-                Result := True;
-                Exit;
-              end;
-              Inc(AD);
-            end;
-          end;
-          Inc(AM);
+        AM := 1;
+        AD := 1;
+      end;
+      while AM <= 12 do
+      begin
+        { æœˆ: ä½¿ç”¨è·³è·ƒç®—æ³• }
+        if not NextAcceptValue(@FLimits[tlpMonthOfYear], AM, 12, AM) then
+          Break;
+        if AM > 12 then
+          Break;
+        if (AY > Y) or (AM > M) then
           AD := 1;
+        while AD <= MonthDays[AIsLeapYear][AM] do
+        begin
+          if AcceptDay(AY, AM, AD) then // Day å« L/W/# é€»è¾‘ï¼Œä¿ç•™åŸæ ·
+          begin
+            if (AD <> D) or (AM <> M) or (AY <> Y) then
+            begin
+              H := 0;
+              N := 0;
+              S := 0;
+            end;
+            Y := AY;
+            M := AM;
+            D := AD;
+            Result := True;
+            Exit;
+          end;
+          Inc(AD);
         end;
+        Inc(AM);
+        AD := 1;
       end;
       Inc(AY);
       AM := 1;
@@ -2424,45 +2537,56 @@ var
   begin
     Result := False;
     NH := H;
-    NM := N;
-    NS := S;
     while NH < 24 do
     begin
-      if Accept(@FLimits[tlpHour], NH) then
+      { æ—¶: ä½¿ç”¨è·³è·ƒç®—æ³• }
+      if not NextAcceptValue(@FLimits[tlpHour], NH, 23, NH) then
+        Exit;
+      if NH > 23 then
+        Exit;
+      if NH > H then
       begin
-        while NM < 60 do
-        begin
-          if Accept(@FLimits[tlpMinute], NM) then
-          begin
-            while NS < 60 do
-            begin
-              if Accept(@FLimits[tlpSecond], NS) then
-              begin
-
-                H := NH;
-                N := NM;
-                S := NS;
-                Result := True;
-                Exit;
-              end;
-              Inc(NS);
-            end;
-          end;
-          Inc(NM);
+        NM := 0;
+        NS := 0;
+      end
+      else
+      begin
+        NM := N;
+        NS := S;
+      end;
+      while NM < 60 do
+      begin
+        { åˆ†: ä½¿ç”¨è·³è·ƒç®—æ³• }
+        if not NextAcceptValue(@FLimits[tlpMinute], NM, 59, NM) then
+          Break;
+        if NM > 59 then
+          Break;
+        if (NH > H) or (NM > N) then
           NS := 0;
+        while NS < 60 do
+        begin
+          { ç§’: ä½¿ç”¨è·³è·ƒç®—æ³• }
+          if not NextAcceptValue(@FLimits[tlpSecond], NS, 59, NS) then
+            Break;
+          if NS > 59 then
+            Break;
+          H := NH;
+          N := NM;
+          S := NS;
+          Result := True;
+          Exit;
         end;
+        Inc(NM);
       end;
       Inc(NH);
-      NM := 0;
-      NS := 0;
     end;
   end;
 
 begin
   Result := IncSecond(FLastTime);
-  // if (Result>FLastTime) and ((Result-FLastTime)<1/86400) then//Èç¹ûÃëÊıÓëµ±Ç°Ê±¼äÏàÍ¬£¬Ôò´¥·¢±ØĞèÔÚÏÂ1ÃëÖ®ºó
+  // if (Result>FLastTime) and ((Result-FLastTime)<1/86400) then//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëµ±Ç°Ê±ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ò´¥·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½Ö®ï¿½ï¿½
   // Result := IncSecond(FLastTime);
-  if Assigned(FOnTimeAccept) then // ÓÃ»§×Ô¼º¶¨ÒåµÄ£¬ÏÖÔÚ²»Çå³ş
+  if Assigned(FOnTimeAccept) then // ï¿½Ã»ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½
     Result := 0
   else if (Result >= FStartTime) and (Result < FStopTime) then
   begin
@@ -2530,34 +2654,34 @@ const
     0, 59,
     // Hour
     0, 23,
-    // Day of Month µ«²»Í¬µÄÔÂ·İÓĞ²»Í¬µÄÏŞÖÆ
+    // Day of Month ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½Â·ï¿½ï¿½Ğ²ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     1, 31,
     // Month
     1, 12,
-    // Day Of Week 1-ÖÜÈÕ£¬2-ÖÜÒ»¡­¡­£¬7-ÖÜÁù
+    // Day Of Week 1-ï¿½ï¿½ï¿½Õ£ï¿½2-ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7-ï¿½ï¿½ï¿½ï¿½
     1, 7,
-    // Äê·İÏŞÖÆ
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     1970, 2099);
-  WeekDayNames: array [1 .. 7] of QStringW = ('MON', // ÖÜÒ»
-    'TUE', // ÖÜ¶ş
-    'WED', // ÖÜÈı
-    'THU', // ÖÜËÄ
-    'FRI', // ÖÜÎå
-    'SAT', // ÖÜÁù
-    'SUN' // ÖÜÈÕ
+  WeekDayNames: array [1 .. 7] of QStringW = ('MON', // ï¿½ï¿½Ò»
+    'TUE', // ï¿½Ü¶ï¿½
+    'WED', // ï¿½ï¿½ï¿½ï¿½
+    'THU', // ï¿½ï¿½ï¿½ï¿½
+    'FRI', // ï¿½ï¿½ï¿½ï¿½
+    'SAT', // ï¿½ï¿½ï¿½ï¿½
+    'SUN' // ï¿½ï¿½ï¿½ï¿½
     );
-  MonthNames: array [1 .. 12] of QStringW = ('JAN', // Ò»ÔÂ
-    'FEB', // ¶şÔÂ
-    'MAR', // ÈıÔÂ
-    'APR', // ËÄÔÂ
-    'MAY', // ÎåÔÂ
-    'JUN', // ÁùÔÂ
-    'JUL', // ÆßÔÂ
-    'AUG', // °ËÔÂ
-    'SEP', // ¾ÅÔÂ
-    'OCT', // Ê®ÔÂ
-    'NOV', // Ê®Ò»ÔÂ
-    'DEC' // Dec.Ê®¶şÔÂ
+  MonthNames: array [1 .. 12] of QStringW = ('JAN', // Ò»ï¿½ï¿½
+    'FEB', // ï¿½ï¿½ï¿½ï¿½
+    'MAR', // ï¿½ï¿½ï¿½ï¿½
+    'APR', // ï¿½ï¿½ï¿½ï¿½
+    'MAY', // ï¿½ï¿½ï¿½ï¿½
+    'JUN', // ï¿½ï¿½ï¿½ï¿½
+    'JUL', // ï¿½ï¿½ï¿½ï¿½
+    'AUG', // ï¿½ï¿½ï¿½ï¿½
+    'SEP', // ï¿½ï¿½ï¿½ï¿½
+    'OCT', // Ê®ï¿½ï¿½
+    'NOV', // Ê®Ò»ï¿½ï¿½
+    'DEC' // Dec.Ê®ï¿½ï¿½ï¿½ï¿½
     );
 
   function ParseValue(Opt: Boolean): Boolean;
@@ -2625,7 +2749,7 @@ const
   var
     Y, M, D, H, N, S: Word;
   begin
-    // ÅĞ¶ÏÊÇ·ñ¹Ì¶¨ÁËÄê·İ
+    // ï¿½Ğ¶ï¿½ï¿½Ç·ï¿½Ì¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     Y := CalcMax(FLimits[tlpYear], 9999);
     if Y = 9999 then
       Exit;
@@ -2675,7 +2799,7 @@ begin
               Break;
           end;
           if not ParseValue(AIdx in [tlpYear, tlpDayOfMonth, tlpDayOfWeek]) then
-          // Èç¹ûÊÇÄê·İ
+          // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
           begin
             if AIdx = tlpYear then
             begin
@@ -2696,12 +2820,12 @@ begin
           end
           else
           begin
-            if (V = 0) and (AIdx = tlpDayOfWeek) then // ÖÜµÄÊ±ºò£¬0×ªÎª7
+            if (V = 0) and (AIdx = tlpDayOfWeek) then // ï¿½Üµï¿½Ê±ï¿½ï¿½0×ªÎª7
               V := 7;
           end;
           FLimits[AIdx][AItemIndex].Start := V;
-          FLimits[AIdx][AItemIndex].Stop := V; // Ä¬ÈÏÆğÊ¼Óë½áÊøÒ»ÖÂ
-          if P^ = MASK_RANGE then // ·¶Î§
+          FLimits[AIdx][AItemIndex].Stop := V; // Ä¬ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
+          if P^ = MASK_RANGE then // ï¿½ï¿½Î§
           begin
             Inc(P);
             ParseValue(False);
@@ -2711,14 +2835,14 @@ begin
             FLimits[AIdx][AItemIndex].Flags := FLimits[AIdx][AItemIndex]
               .Flags or PLAN_MASK_RANGE;
           end;
-          if P^ = MASK_INTERVAL then // ÖØ¸´
+          if P^ = MASK_INTERVAL then // ï¿½Ø¸ï¿½
           begin
             Inc(P);
             ParseValue(False);
             FLimits[AIdx][AItemIndex].Interval := V;
             FLimits[AIdx][AItemIndex].Flags := FLimits[AIdx][AItemIndex]
               .Flags or PLAN_MASK_REPEAT;
-            //²»ÊÇ·¶Î§ÄÚÖØ¸´£¬Ôò½áÊøÖµÉèÖÃÎª²»¿É´ïµ½µÄÖµ
+            //ï¿½ï¿½ï¿½Ç·ï¿½Î§ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½É´ïµ½ï¿½ï¿½Öµ
             if (FLimits[AIdx][AItemIndex].Flags and PLAN_MASK_RANGE)=0 then
               FLimits[AIdx][AItemIndex].Stop:=32767;
           end;
@@ -2742,7 +2866,7 @@ begin
             FLimits[AIdx][AItemIndex].Flags := FLimits[AIdx][AItemIndex]
               .Flags or PLAN_MASK_LAST;
           end;
-          if P^ = MASK_LIST then // ÁĞ±í
+          if P^ = MASK_LIST then // ï¿½Ğ±ï¿½
           begin
             SetLength(FLimits[AIdx], Length(FLimits[AIdx]) + 1);
             Inc(AItemIndex);
