@@ -1032,7 +1032,7 @@ end;
 
 procedure TQInterval.SetMilliSecond(const Value: Smallint);
 begin
-  Encode(Year, Month, Day, Value, Minute, Second, Value);
+  Encode(Year, Month, Day, Hour, Minute, Second, Value);
 end;
 
 procedure TQInterval.SetMinute(const Value: Shortint);
@@ -1069,7 +1069,7 @@ end;
 
 procedure TQInterval.SetYearMonth(const Value: Integer);
 begin
-  FData := (Int64(Value) shl 40) and (FData and $FFFFFFFFFF);
+  FData := (Int64(Value) shl 40) or (FData and $FFFFFFFFFF);
 end;
 
 class function TQInterval.StringToInterval(const S: QStringW): TQInterval;

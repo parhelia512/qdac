@@ -501,6 +501,8 @@ type
     /// <param name="APath">要添加的结点路径</param>
     /// <returns>返回路径对应的对象</returns>
     function ForcePath(APath: QStringW): TQXMLNode;
+    /// <summary>在当前结点下按名称查找子结点，不存在则创建</summary>
+    function ForceName(const AName: QStringW): TQXMLNode;
     /// <summary>编码为字符串</summary>
     /// <param name="ADoFormat">是否格式化字符串，以增加可读性</param>
     /// <param name="AIndent">ADoFormat参数为True时，缩进内容，默认为两个空格</param>
@@ -2178,6 +2180,14 @@ begin
   end;
 end;
 
+function TQXMLNode.ForceName(const AName: QStringW): TQXMLNode;
+begin
+  Result := ItemByName(AName);
+  if not Assigned(Result) then
+    Result := Add(AName);
+end;
+
+procedure TQXMLNode.FreeNode
 procedure TQXMLNode.FreeNode(ANode: TQXMLNode);
 begin
   if Assigned(OnQXMLNodeFree) then

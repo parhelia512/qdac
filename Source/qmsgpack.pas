@@ -510,6 +510,8 @@ type
     /// 3、如果APath指定的对象类型不匹配，则会抛出异常，如a为对象，但使用a[0].b访问时。
     /// </remarks>
     function ForcePath(APath: QStringW): TQMsgPack;
+    /// <remarks>ForceName 在当前结点下按名称查找子结点，不存在则创建。</remarks>
+    function ForceName(const AName: QStringW): TQMsgPack;
     /// <summary>解析指定的MsgPack字节序列</summary>
     /// <param name="p">要解析的字节序列</param>
     /// <param name="l">字符串长度，<=0认为是以\0(#0)结尾的C语言标准字符串</param>
@@ -2235,6 +2237,18 @@ begin
   end;
 end;
 
+function TQMsgPack.ForceName(const AName: QStringW): TQMsgPack;
+begin
+  Result := ItemByName(AName);
+  if not Assigned(Result) then
+  begin
+    if not (DataType in [mptArray, mptMap]) then
+      DataType := mptMap;
+    Result := Add(AName);
+  end;
+end;
+
+procedure TQMsgPack.FreeItem
 procedure TQMsgPack.FreeItem(AItem: TQMsgPack);
 begin
   AItem.FParent := nil;
