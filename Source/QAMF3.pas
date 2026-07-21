@@ -427,12 +427,10 @@ type
     function ItemByName(const AName: QStringW): TQAMFNode; overload;
     function ItemByName(const AName: QStringW; AList: TQAMFList; ANest: Boolean)
       : Integer; overload;
-    function ItemByName(const AName: QStringW): TQAMFNode; overload;
-    function ItemByName(const AName: QStringW; AList: TQAMFList; ANest: Boolean)
-      : Integer; overload;
     /// <summary>在当前结点下按名称查找子结点，不存在则创建</summary>
     function ForceName(const AName: QStringW): TQAMFNode;
     function ItemByPath(const APath: QStringW): TQAMFNode;
+    function HasChild(const APath: QStringW; var AChild: TQAMFNode): Boolean;
     function Exists(const APath: QStringW): Boolean;
     function IndexOf(const AName: QStringW): Integer;
     function Remove(AItemIndex: Integer): TQAMFNode; overload;
@@ -1832,7 +1830,6 @@ begin
   end;
 end;
 
-function TQAMFNode.ItemByPath
 function TQAMFNode.ItemByPath(const APath: QStringW): TQAMFNode;
 var
   AParent: TQAMFNode;
